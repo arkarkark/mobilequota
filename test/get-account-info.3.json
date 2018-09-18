@@ -1,0 +1,21 @@
+{
+"accountStatus": "Active",
+"account_number": "1234567",
+"aed": "2018-10-07",
+"data_balance": "1,246",
+"data_balance_label": "Data Balance",
+"lastAutoRenewDate": "2019-08-04",
+"lastExpirationDate": "2019-09-03",
+"main_balance": "N/A",
+"mdn": "4085552222",
+"messaging_balance": "Unlimited",
+"plan": "30 Day- Unlimited Everything (12GB@4G LTE)",
+"plan_code": "M060GSMA",
+"plan_id": "78",
+"productCode": "GSMA",
+"return_code": 1,
+"return_text": "Success",
+"sku": "M06Aw",
+"sku_enc": "4d3",
+"voice_balance": "Unlimited"
+}

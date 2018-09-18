@@ -1,0 +1,21 @@
+{
+"accountStatus": "Active",
+"account_number": "1234567",
+"aed": "2018-10-04",
+"data_balance": "500",
+"data_balance_label": "Data Balance",
+"lastAutoRenewDate": "0000-00-00",
+"lastExpirationDate": "0000-00-00",
+"main_balance": "N/A",
+"mdn": "4085551111",
+"messaging_balance": "500",
+"plan": "30 Day- 500 Minutes, 500 Texts & 500MB@4G LTE",
+"plan_code": "M010GSMA",
+"plan_id": "243",
+"productCode": "GSMA",
+"return_code": 1,
+"return_text": "Success",
+"sku": "M010Aw",
+"sku_enc": "4d3",
+"voice_balance": "500"
+}

@@ -1,0 +1,21 @@
+{
+"accountStatus": "Active",
+"account_number": "1234567",
+"aed": "2018-10-13",
+"data_balance": "473",
+"data_balance_label": "Data Balance",
+"lastAutoRenewDate": "2019-08-10",
+"lastExpirationDate": "2019-09-09",
+"main_balance": "N/A",
+"mdn": "6505554444",
+"messaging_balance": "99",
+"plan": "$60- Annual 100 MOU/SMS + 500MB Plan",
+"plan_code": "E005GSMA",
+"plan_id": "308",
+"productCode": "GSMA",
+"return_code": 1,
+"return_text": "Success",
+"sku": "E00",
+"sku_enc": "45",
+"voice_balance": "92"
+}
