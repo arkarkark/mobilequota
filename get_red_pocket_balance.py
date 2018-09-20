@@ -4,17 +4,19 @@
 based on code from https://gist.github.com/gene1wood/236f1dcc082950afb4851a382951820c
 """
 
-import requests
-import yaml
 import json
 import os.path
 import datetime
 import re
 import logging
 
+import requests
+import yaml
 
-LOG = logging.getLogger("get_red_pocket_balance")
-LOG.setLevel(logging.DEBUG)
+import formatlogging
+
+LOG = formatlogging.getLogger(__name__)
+LOG.logger.setLevel(formatlogging.DEBUG)
 
 def main():
     """Login and get usage data."""
@@ -56,7 +58,7 @@ def main():
     LOG.info('got back: %r', result)
 
     output = {
-        'datetime': "%s" % datetime.datetime.now(),
+        'datetime': str(datetime.datetime.now()),
         'plan_name': result['plan'],
         'expiration_date': result['aed'],
         'voice_balance': result['voice_balance'],
